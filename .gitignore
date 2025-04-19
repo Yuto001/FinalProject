@@ -1,0 +1,47 @@
+# Ignore Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# .NET artifacts
+*.dll
+*.exe
+*.pdb
+*.appx
+*.cache
+*.log
+
+# ASP.NET files
+project.lock.json
+project.fragment.lock.json
+
+# Node / React stuff
+node_modules/
+build/
+dist/
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & IDE noise
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# SQLite database if you don't want to include it
+*.sqlite
+*.db
+
+# Optional - Ignore deployment artifacts
+publish/
